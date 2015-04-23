@@ -1,0 +1,25 @@
+package edu.wmich.cs6600.classes;
+
+public class Gold extends Status {
+	int get_factor() {
+			return 3;
+		}
+
+	@Override
+	Status getNext() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	void setNext(Status next) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	Status check_Status(Customer c) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+}
